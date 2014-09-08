@@ -1,0 +1,23 @@
+{
+    "name": "aglipanci/interspire",
+    "description": "Interspire API Intergration Made Easy",
+    "authors": [
+        {
+            "name": "Agli Panci",
+            "email": "agli.panci@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Aglipanci\\Interspire\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
