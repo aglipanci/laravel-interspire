@@ -1,6 +1,7 @@
 {
     "name": "aglipanci/interspire",
     "description": "Interspire API Intergration Made Easy",
+    "license": "GPL-3.0+"
     "authors": [
         {
             "name": "Agli Panci",
