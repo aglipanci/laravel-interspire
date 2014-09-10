@@ -1,6 +1,8 @@
 laravel-interspire
 ==================
 
+!https://travis-ci.org/aglipanci/laravel-interspire.svg?branch=master!:https://travis-ci.org/aglipanci/laravel-interspire
+
 Interspire API Intergration Made Easy
 
 ## Installation
