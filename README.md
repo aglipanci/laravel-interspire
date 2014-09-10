@@ -1,7 +1,7 @@
 laravel-interspire
 ==================
 
-https://travis-ci.org/aglipanci/laravel-interspire.svg?branch=master
+<a href="https://travis-ci.org/aglipanci/laravel-interspire"><img src="https://travis-ci.org/aglipanci/laravel-interspire.svg?branch=master"></a>
 
 Interspire API Intergration Made Easy
 
