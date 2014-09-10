@@ -44,14 +44,6 @@ Add an alias within the ```aliases``` array found in ```app/config/app.php```:
 
 ## Configuration
 
-There are two ways to configure oauth-4-laravel.
-You can choose the most convenient way for you. 
-You can use package config file which can be 
-generated through command line by artisan (option 1) or 
-you can simply create a config file called ``oauth-4-laravel.php`` in 
-your ``app\config\`` directory (option 2).
-
-
 Create configuration file for package using artisan command
 
 ```
