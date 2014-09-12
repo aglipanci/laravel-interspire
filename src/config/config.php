@@ -2,8 +2,6 @@
 
 return array(
 
-	'enabled' => false,
-
 	'url' => '',
 
 	'api_user' => '',
