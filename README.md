@@ -1,9 +1,7 @@
 laravel-interspire
 ==================
 
-<a href="https://travis-ci.org/aglipanci/laravel-interspire"><img src="https://travis-ci.org/aglipanci/laravel-interspire.svg?branch=master"></a>
-
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/b4d24331-010a-4bf3-be15-614e84607a51/big.png)](https://insight.sensiolabs.com/projects/b4d24331-010a-4bf3-be15-614e84607a51)
+<a href="https://travis-ci.org/aglipanci/laravel-interspire"><img src="https://travis-ci.org/aglipanci/laravel-interspire.svg?branch=master"></a>[![SensioLabsInsight](https://insight.sensiolabs.com/projects/b4d24331-010a-4bf3-be15-614e84607a51/mini.png)](https://insight.sensiolabs.com/projects/b4d24331-010a-4bf3-be15-614e84607a51)
 
 Interspire API Intergration Made Easy
 
