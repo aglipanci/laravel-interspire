@@ -1,6 +1,8 @@
 {
     "name": "aglipanci/interspire",
     "description": "Interspire API Intergration Made Easy",
+    "keywords": ["laravel","interspire"],
+    "homepage": "https://github.com/aglipanci/laravel-interspire",
     "license": "GPL-3.0+",
     "authors": [
         {
