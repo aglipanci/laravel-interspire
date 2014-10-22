@@ -98,10 +98,11 @@ class Interspire {
 
 	/**	
 	 * [isOnList description]
+	 * @param  [type] $email [description]
 	 * @param  [type] $list_id [description]
 	 * @return void        [description]
 	 */		
-	public function isOnList($list_id)
+	public function isOnList($email, $list_id)
 	{
 		$xml = '<xmlrequest>
 		<username>'.Config::get('interspire::api_user').'</username>
@@ -109,8 +110,8 @@ class Interspire {
 		<requesttype>subscribers</requesttype>
 		<requestmethod>IsSubscriberOnList</requestmethod>
 		<details>
-		<Email>email@yourdomain.com</Email>
-		<List>'. $list_id .'</List>
+		<Email>'.$email.'</Email>
+		<List>'.$list_id.'</List>
 		</details>
 		</xmlrequest>';
 
