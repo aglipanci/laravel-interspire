@@ -96,4 +96,16 @@ class Interspire {
 		$this->postData($xml);
 	}
 
+	public function isOnList($list_id)
+	{
+		$xml = ' <requesttype>subscribers</requesttype>
+		 <requestmethod>IsSubscriberOnList</requestmethod>
+		 <details>
+		 <Email>email@yourdomain.com</Email>
+		 <List>'. $list_id .'</List>
+		 </details>
+		 </xmlrequest>';
+		 $this->postData($xml);
+	}
+
 }
