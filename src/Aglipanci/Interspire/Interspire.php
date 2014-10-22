@@ -15,7 +15,7 @@ class Interspire {
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_POST, 1);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $xml);
-		$result = @curl_exec($ch);
+		$result = curl_exec($ch);
 
 
 		if($result === false) 
