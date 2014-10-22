@@ -96,16 +96,25 @@ class Interspire {
 		$this->postData($xml);
 	}
 
+	/**	
+	 * [isOnList description]
+	 * @param  [type] $list_id [description]
+	 * @return void        [description]
+	 */		
 	public function isOnList($list_id)
 	{
-		$xml = ' <requesttype>subscribers</requesttype>
-		 <requestmethod>IsSubscriberOnList</requestmethod>
-		 <details>
-		 <Email>email@yourdomain.com</Email>
-		 <List>'. $list_id .'</List>
-		 </details>
-		 </xmlrequest>';
-		 $this->postData($xml);
+		$xml = '<xmlrequest>
+		<username>'.Config::get('interspire::api_user').'</username>
+		<usertoken>'.Config::get('interspire::api_token').'</usertoken>
+		<requesttype>subscribers</requesttype>
+		<requestmethod>IsSubscriberOnList</requestmethod>
+		<details>
+		<Email>email@yourdomain.com</Email>
+		<List>'. $list_id .'</List>
+		</details>
+		</xmlrequest>';
+
+		$this->postData($xml);
 	}
 
 }
