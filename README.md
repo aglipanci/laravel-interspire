@@ -71,4 +71,10 @@ To delete an existing Subscriber you need only the email address:
 Interspire::deleteSubscriber('jsmith@gmail.com');
 ```
 
+To check if a subscriber is already on a specific list:
+
+```php
+Interspire::isOnList('jsmith@gmail.com', 2)
+```
+
 	
